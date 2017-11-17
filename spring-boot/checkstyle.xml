@@ -90,6 +90,7 @@
     </module>
     <module name="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck">
       <property name="scope" value="public"/>
+      <property name="tokens" value="VARIABLE_DEF"/>
     </module>
     <module name="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck">
       <property name="checkEmptyJavadoc" value="true"/>
